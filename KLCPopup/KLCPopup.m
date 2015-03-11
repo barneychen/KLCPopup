@@ -225,7 +225,7 @@ const KLCPopupLayout KLCPopupLayoutCenter = { KLCPopupHorizontalLayoutCenter, KL
 }
 
 
-+ (void)showAtCenter:(CGPoint)center inView:(UIView*)view {
+- (void)showAtCenter:(CGPoint)center inView:(UIView*)view {
   [self showAtCenter:center inView:view withDuration:0.0];
 }
 

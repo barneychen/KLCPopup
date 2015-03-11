@@ -159,7 +159,7 @@ extern const KLCPopupLayout KLCPopupLayoutCenter;
 - (void)showWithLayout:(KLCPopupLayout)layout duration:(NSTimeInterval)duration;
 
 // Show centered at point in view's coordinate system. If view is nil use screen base coordinates.
-+ (void)showAtCenter:(CGPoint)center inView:(UIView*)view;
+- (void)showAtCenter:(CGPoint)center inView:(UIView*)view;
 
 // Show centered at point in view's coordinate system, then dismiss after duration.
 - (void)showAtCenter:(CGPoint)center inView:(UIView *)view withDuration:(NSTimeInterval)duration;
